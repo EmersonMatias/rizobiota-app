@@ -5,11 +5,13 @@ import Script from 'next/script'
 
 const nunito = Nunito_Sans({
   subsets: ['latin'],
+  variable: '--font-nunito',
   display: 'swap'
 })
 
-const gabarito = Gabarito({
+export const gabarito = Gabarito({
   subsets: ['latin'],
+  variable: '--font-gabarito',
   display: 'swap'
 })
 
@@ -17,7 +19,7 @@ export const metadata: Metadata = {
   title: '',
   description: '',
   // This is the base URL for the metadata, used for Open Graph and other social media tags
-  metadataBase: new URL(''),
+  metadataBase: new URL('http://localhost:3000/'),
   openGraph: {
     type: 'website',
     title: '',
@@ -46,7 +48,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="pt-BR" className={(gabarito.className, nunito.className)}>
+    <html lang="pt-BR" className={`${nunito.variable} ${gabarito.variable}`}>
       <Script
         id="blackgenn-schema"
         type="application/ld+json"

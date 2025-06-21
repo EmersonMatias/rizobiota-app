@@ -11,7 +11,13 @@ const config: Config = {
     extend: {
       colors: {
         background: 'var(--background)',
-        foreground: 'var(--foreground)'
+        foreground: 'var(--foreground)',
+        primary: '#20606c',
+        secondary: '#c08002'
+      },
+      fontFamily: {
+        nunito: ['var(--font-nunito)'],
+        gabarito: ['var(--font-gabarito)']
       },
       keyframes: {
         animateCustomers: {

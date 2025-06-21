@@ -1,3 +1,10 @@
+import HeroSection from '@/components/sections/hero-section'
+
 export default function HomePt() {
-  return <div>Welcome</div>
+  return (
+    <main>
+      <HeroSection />
+      asdasdasd
+    </main>
+  )
 }
