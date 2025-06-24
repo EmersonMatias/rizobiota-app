@@ -10,7 +10,7 @@ export default function HeroSection() {
         <img src="home-background.webp" className="w-full h-full object-cover" alt=" " />
       </div>
 
-      <div className="m-auto text-center flex flex-col items-center">
+      <div className="m-auto pt-20 text-center flex flex-col items-center">
         <h1 className="font-gabarito font-semibold text-5xl text-secondary tracking-widest  md:text-8xl lg:text-9xl">
           RIZOBIOTA
         </h1>
