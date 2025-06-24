@@ -3,6 +3,7 @@ import Section1 from '@/components/sections/section-1'
 import Section2 from '@/components/sections/section-2'
 import Section3 from '@/components/sections/section-3'
 import Section4 from '@/components/sections/section-4'
+import Section5 from '@/components/sections/section-5'
 
 export default function HomePt() {
   return (
@@ -12,6 +13,8 @@ export default function HomePt() {
       <Section2 />
       <Section3 />
       <Section4 />
+      <Section5 />
+      asas
     </main>
   )
 }
