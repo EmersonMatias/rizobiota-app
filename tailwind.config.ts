@@ -13,7 +13,8 @@ const config: Config = {
         background: 'var(--background)',
         foreground: 'var(--foreground)',
         primary: '#20606c',
-        secondary: '#c08002'
+        secondary: '#c08002',
+        tertiaty: '#00B050'
       },
       fontFamily: {
         nunito: ['var(--font-nunito)'],
