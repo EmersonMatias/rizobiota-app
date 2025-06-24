@@ -22,7 +22,7 @@ export default function HeroSection() {
         </p>
 
         <button
-          className="px-10 gap-4 flex items-center py-3 rounded-md bg-white hover:bg-[#f3f3f3] text-primary font-bold mt-10 md:text-xl md:px-20 md:py-5 md:mt-20"
+          className="px-10 gap-4 flex items-center py-4 rounded-md bg-white hover:bg-[#f3f3f3] text-primary font-bold mt-10 md:text-xl md:px-20 md:py-5 md:mt-20"
           onClick={() => openWhatsapp('992031949')}
         >
           Agende uma demonstração

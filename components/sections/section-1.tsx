@@ -10,7 +10,7 @@ export default function Section1() {
         <div className="mt-5 space-y-8">
           <div className="border-2 border-neutral-300 p-2 rounded-lg">
             <h6 className="text-primary font-bold md:text-lg">O PROBLEMA</h6>
-            <p className="md:text-lg md:leading-loose">
+            <p className="md:text-lg leading-loose">
               Doenças causadas por fungos e nematoides causam perdas severas todos os anos no
               Brasil. As novas tecnologias químicas e biológicas podem ajudar em mitigar estas
               perdas, mas o diagnóstico preciso é fundamental para auxiliar no uso correto dessas
@@ -20,7 +20,7 @@ export default function Section1() {
 
           <div className="border-2 border-neutral-300 p-2 rounded-lg">
             <h6 className="text-primary font-bold md:text-lg">NOSSA SOLUÇÃO</h6>
-            <p className="md:text-lg md:leading-loose">
+            <p className="md:text-lg leading-loose">
               Tenha em mãos a ferramenta de análise de microbiota de solo para mais de 200
               microorganismos e descubra riscos ocultos que lhe causam até 30% de perdas de
               produtividade todos os anos.
