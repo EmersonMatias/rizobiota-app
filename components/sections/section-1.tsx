@@ -29,7 +29,7 @@ export default function Section1() {
         </div>
       </div>
 
-      <div className="absolute  flex min-h-full left-0 top-0 w-full h-full -z-10 -translate-x-[50%] opacity-30 md:opacity-100 2xl:-translate-x-[44%]">
+      <div className="absolute  flex min-h-full left-0 top-0 w-full h-full -z-10 -translate-x-[50%] opacity-60 md:opacity-100 2xl:-translate-x-[44%]">
         <img src="bg-section-1.png" className="h-full w-full object-cover object-bottom" alt=" " />
       </div>
     </section>

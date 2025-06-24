@@ -4,7 +4,7 @@ import { FaWhatsapp } from 'react-icons/fa'
 
 export default function Section2() {
   return (
-    <section className="py-10 h-fit lg:py-[100px] px-5 relative overflow-x-hidden md:flex md:pl-20 md:pr-0 md:gap-10 md:items-center">
+    <section className="py-10 h-fit lg:py-[100px] px-5 relative overflow-x-hidden md:flex md:pl-20 md:pr-0 md:gap-10 md:items-center bg-[#f9f9f9]">
       <div className="md:w-[50%] md:mr-auto">
         <h1 className="font-gabarito font-bold text-2xl tracking-widest  md:text-3xl lg:text-4xl">
           A ANÁLISE QUE JÁ FACILITA A VIDA DE <span className="text-secondary">CENTENAS</span> DE
@@ -46,7 +46,7 @@ export default function Section2() {
         </div>
       </div>
 
-      <div className="hidden h-full w-1/2 md:flex items-center  max-h-[600px]">
+      <div className="hidden h-full w-1/2 md:flex items-center max-h-[600px]">
         <img src="desktop-mobile.png" alt=" " className="w-full h-full object-cover" />
       </div>
     </section>
