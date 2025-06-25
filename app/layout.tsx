@@ -3,6 +3,7 @@ import { Nunito_Sans, Gabarito } from 'next/font/google'
 import { Metadata } from 'next'
 import Script from 'next/script'
 import Header from '@/components/sections/header'
+import Footer from '@/components/sections/footer'
 
 const nunito = Nunito_Sans({
   subsets: ['latin'],
@@ -65,6 +66,7 @@ export default function RootLayout({
       <body className={'antialiased'}>
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   )
