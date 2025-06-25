@@ -10,18 +10,38 @@
 }
 
 .absolute-center {
-  @apply top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2
+  @apply top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2;
 }
 
 .absolute-center-x {
-  @apply  left-1/2 -translate-x-1/2 
+  @apply left-1/2 -translate-x-1/2;
 }
 
 .absolute-center-y {
-  @apply  top-1/2 -translate-y-1/2 
+  @apply top-1/2 -translate-y-1/2;
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
+}
+
+.embla {
+  overflow: hidden;
+}
+.embla__container {
+  display: flex;
+}
+.embla__slide {
+  flex: 0 0 80%;
+  min-width: 0;
+  margin-inline: 16px;
+
+  @media (min-width: 700px) {
+    flex: 0 0 50%;
+  }
+
+  @media (min-width: 1200px) {
+    flex: 0 0 30%;
+  }
 }

@@ -6,18 +6,18 @@ import Header from '@/components/sections/header'
 
 const nunito = Nunito_Sans({
   subsets: ['latin'],
-  variable: '--font-nunito',
+  variable: '--font-nunito-sans',
   display: 'swap'
 })
 
-export const gabarito = Gabarito({
+const gabarito = Gabarito({
   subsets: ['latin'],
   variable: '--font-gabarito',
   display: 'swap'
 })
 
 export const metadata: Metadata = {
-  title: '',
+  title: 'Rizobiota',
   description: '',
   // This is the base URL for the metadata, used for Open Graph and other social media tags
   metadataBase: new URL('http://localhost:3000/'),

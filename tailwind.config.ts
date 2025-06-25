@@ -17,7 +17,7 @@ const config: Config = {
         tertiaty: '#00B050'
       },
       fontFamily: {
-        nunito: ['var(--font-nunito)'],
+        nunito: ['var(--font-nunito-sans)'],
         gabarito: ['var(--font-gabarito)']
       },
       keyframes: {
