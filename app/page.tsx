@@ -5,6 +5,7 @@ import Section3 from '@/components/sections/section-3'
 import Section4 from '@/components/sections/section-4'
 import Section5 from '@/components/sections/section-5'
 import Section6 from '@/components/sections/section-6'
+import Section7 from '@/components/sections/section-7'
 
 export default function HomePt() {
   return (
@@ -16,6 +17,7 @@ export default function HomePt() {
       <Section4 />
       <Section5 />
       <Section6 />
+      <Section7 />
     </main>
   )
 }

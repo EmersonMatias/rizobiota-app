@@ -77,7 +77,7 @@ export default function Section6() {
   ]
 
   return (
-    <section className="py-10 px-5 md:py-20 md:px-20">
+    <section className="py-10 px-5 bg-[#f9f9f9] md:py-20 md:px-20">
       <h1 className="font-gabarito font-bold text-2xl tracking-widest mb-5  md:text-3xl text-center lg:text-4xl ">
         DEPOIMENTOS DE <span className="text-secondary">CLIENTES</span>
       </h1>

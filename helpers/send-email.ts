@@ -1,6 +1,6 @@
 import emailjs from '@emailjs/browser'
 
-export default async function useSendEmail(
+export default async function sendEmail(
   e: Form,
   reset: () => void,
   setLoading: React.Dispatch<React.SetStateAction<boolean>>
