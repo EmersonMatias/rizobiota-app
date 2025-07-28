@@ -5,24 +5,21 @@ import openWhatsapp from '@/helpers/open-whatsapp'
 export default function Section5() {
   return (
     <section className="py-10 px-5 relative flex items-end overflow-hidden md:py-20 lg:h-dvh">
-      <div className="flex flex-col items-center md:flex-row md:items-end ">
+      <div className="flex flex-col items-center w-full justify-between md:flex-row md:items-end max-w-[1280px] mx-auto">
         <div className="flex flex-col items-center md:w-1/2">
-          <h1 className="font-gabarito font-bold text-2xl tracking-widest mb-5  md:text-3xl text-center lg:text-4xl ">
+          <h2 className="font-gabarito font-bold text-2xl tracking-widest mb-5  md:text-3xl text-center lg:text-5xl lg:max-w-[600px] ">
             BAIXE NOSSO E-BOOK <span className="text-secondary">EXCLUSIVO</span>
-          </h1>
+          </h2>
 
           <div className="w-[80%] h-full mb-5 overflow-hidden rounded-lg max-w-[400px] md:mb-0">
             <img src="ebook.png" alt="" className="w-full h-full object-contain" />
           </div>
         </div>
 
-        <div className="bg-white p-4 py-8 rounded-lg shadow-md bg-opacity-80 backdrop-blur-sm shadow-black md:w-1/2 md:text-center ">
+        <div className="bg-white  p-4 py-8 rounded-lg shadow-md bg-opacity-80 backdrop-blur-sm shadow-black md:w-full md:text-center ">
           <p className="font-semibold">
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-            has been the industrys standard dummy text ever since the 1500s, when an unknown printer
-            took a galley of Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s,
-            when an unknown printer took a galley of{' '}
+            Preparamos um e-book com informações sobre os microrganismos benéficos e patogênicos
+            mais relevantes para o solo.
           </p>
 
           <button

@@ -10,9 +10,9 @@ export default function Section4() {
       </div>
 
       <div className="md:w-1/2 md:flex md:flex-col md:justify-center">
-        <h1 className="font-gabarito font-bold text-2xl tracking-widest mb-5  md:text-3xl md:text-center lg:text-4xl ">
-          VALIDADO POR CLIENTES EM <span className="text-secondary">TODO O BRASIL</span>
-        </h1>
+        <h2 className="font-gabarito font-bold text-2xl tracking-widest mb-5  md:text-3xl md:text-center lg:text-4xl ">
+          VALIDADA POR CLIENTES EM <span className="text-secondary">TODO O BRASIL</span>
+        </h2>
 
         <div className="w-[90%] max-w-[600px] mx-auto mb-5 md:hidden">
           <img src="section-4.png" className="h-full w-full rounded-lg" alt="" />

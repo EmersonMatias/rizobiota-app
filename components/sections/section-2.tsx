@@ -6,10 +6,10 @@ export default function Section2() {
   return (
     <section className="py-10 h-fit lg:py-[100px] px-5 relative overflow-x-hidden md:flex md:pl-20 md:pr-0 md:gap-10 md:items-center bg-[#f9f9f9]">
       <div className="md:w-[50%] md:mr-auto">
-        <h1 className="font-gabarito font-bold text-2xl tracking-widest  md:text-3xl lg:text-4xl">
+        <h2 className="font-gabarito font-bold text-2xl tracking-widest  md:text-3xl lg:text-4xl">
           A ANÁLISE QUE JÁ FACILITA A VIDA DE <span className="text-secondary">CENTENAS</span> DE
-          AGRÔNOMOS
-        </h1>
+          PROFISSIONAIS DO AGRO E PRODUTORES RURAIS.
+        </h2>
 
         <div className="w-full flex flex-col items-center md:mt-8">
           <div className="w-[90%] h-auto my-5 max-w-[300px] md:hidden">
@@ -18,21 +18,20 @@ export default function Section2() {
 
           <div>
             <p className="md:text-lg leading-loose mb-5">
-              Com a análise do perfil de microbiota de solo, agrônomos em todo o Brasil realizam a
-              identificação de{' '}
+              Com a análise do perfil de microbiota de solo, produtores rurais e profissionais do
+              agro realizam a identificação de{' '}
               <span className="font-bold text-secondary">microrganismos benéficos</span> e{' '}
-              <span className="font-bold text-secondary">patogênicos</span> de forma simples e
-              prática, resultando em manejos mais eficientes e ganhos reais para produtores rurais
-              de todas as culturas.
+              <span className="font-bold text-secondary">patogênicos</span> e{' '}
+              <span className="font-bold text-secondary">nematoides</span> de forma simples e{' '}
+              prática, resultando em manejos mais eficientes e ganhos reais para todas as culturas.
             </p>
             <p className="md:text-lg leading-loose">
               Nossa tecnologia simplifica o processo de tomada de decisão para{' '}
               <span className="font-bold text-secondary">manejo regenerativo</span> do solo,
               combinando análise de microbiota e inteligência artificial para{' '}
               <span className="font-bold text-secondary">
-                identificar riscos de doenças de forma preventiva
-              </span>{' '}
-              , indicando os produtos mais recomendados para o ganho de produtividade no campo.
+                identificar riscos de doenças de forma preventiva.
+              </span>
             </p>
 
             <button

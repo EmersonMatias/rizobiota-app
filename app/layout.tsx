@@ -21,13 +21,13 @@ export const metadata: Metadata = {
   title: 'Rizobiota',
   description: '',
   // This is the base URL for the metadata, used for Open Graph and other social media tags
-  metadataBase: new URL('http://localhost:3000/'),
+  metadataBase: new URL('https://voluble-sopapillas-8116ab.netlify.app/'),
   openGraph: {
     type: 'website',
-    title: '',
+    title: 'Rizobiota',
     description: '',
     // This is the URL of the page that will be shared on social media
-    url: ''
+    url: 'https://voluble-sopapillas-8116ab.netlify.app/'
   }
 }
 
@@ -59,8 +59,15 @@ export default function RootLayout({
         }}
       />
       <head>
-        <link rel="canonical" href="" key="canonical" />
-        <meta property="og:image" content="" />
+        <link
+          rel="canonical"
+          href="https://voluble-sopapillas-8116ab.netlify.app/"
+          key="canonical"
+        />
+        <meta
+          property="og:image"
+          content="https://opengraph.b-cdn.net/production/images/a5268a56-5b3f-4e7f-9c47-467290bfa4ae.png?token=HV99uhsHiLmObJsmdUW7IcA5h_cVVdQ1J7wCy-hu9Qc&height=590&width=1200&expires=33286877763"
+        />
       </head>
 
       <body className={'antialiased'}>
