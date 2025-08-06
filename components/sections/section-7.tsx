@@ -29,8 +29,11 @@ export default function Section7() {
 
         <div className="flex flex-col gap-10 lg:flex-row">
           <div className="lg:max-w-[800px] bg-white shadow-md shadow-black p-10 rounded-md lg:w-full flex flex-col items-center">
+            <h6 className="text-3xl lg:text-4xl font-bold mb-5 text-secondary">
+              Tire sua dúvida aqui!
+            </h6>
             <form
-              className="space-y-6"
+              className="space-y-6 lg:space-y-10"
               onSubmit={handleSubmit((e) => sendEmail(e, reset, setLoading))}
             >
               <div>
@@ -84,7 +87,7 @@ export default function Section7() {
                 </label>
                 <textarea
                   id="message"
-                  rows={5}
+                  rows={8}
                   placeholder="Escreva sua mensagem aqui..."
                   {...register('message', { required: true })}
                   className="mt-1 p-3 w-full rounded-lg border-2 border-gray-200 focus:border-primary-500 focus:ring-2 focus:ring-primary-500 transition-all"

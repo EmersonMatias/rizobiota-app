@@ -52,7 +52,7 @@ export default function Section6() {
         DEPOIMENTOS DE <span className="text-secondary">CLIENTES</span>
       </h2>
 
-      <div className="embla" ref={emblaRef}>
+      <div className="embla " ref={emblaRef}>
         <div className="embla__container basis-1/3">
           {feedbacks.map(({ name, statement }, index) => {
             return (

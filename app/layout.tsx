@@ -4,6 +4,7 @@ import { Metadata } from 'next'
 import Script from 'next/script'
 import Header from '@/components/sections/header'
 import Footer from '@/components/sections/footer'
+import FloatingWhatsapp from '@/components/floating-whatsapp'
 
 const nunito = Nunito_Sans({
   subsets: ['latin'],
@@ -74,6 +75,7 @@ export default function RootLayout({
         <Header />
         {children}
         <Footer />
+        <FloatingWhatsapp />
       </body>
     </html>
   )

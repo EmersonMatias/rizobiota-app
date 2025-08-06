@@ -10,19 +10,25 @@ export default function Footer() {
         </div>
 
         <div className="flex gap-5  font-semibold w-full justify-center lg:w-fit">
-          <Link href="/" className="">
-            Início
-          </Link>
-          <Link href="/servicos">Contato</Link>
+          <Link href="/">Início</Link>
+          <Link href="/servicos">Serviços</Link>
           <Link href="/quem-somos">Loja</Link>
           <Link href="/contato">App</Link>
         </div>
 
         <div className="flex flex-col gap-2 w-full items-center  lg:w-[400px] lg:items-end  ">
           <div className="flex gap-10">
-            <FaWhatsapp className="w-6 h-6" />
-            <FaLinkedinIn className="w-6 h-6" />
-            <FaInstagram className="w-6 h-6" />
+            <Link href="https://wa.me/16999923882" target="_blank">
+              <FaWhatsapp className="w-6 h-6" />
+            </Link>
+
+            <Link href="https://www.linkedin.com/company/bymycell/" target="_blank">
+              <FaLinkedinIn className="w-6 h-6" />
+            </Link>
+
+            <Link href="https://www.instagram.com/rizobiota_/" target="_blank">
+              <FaInstagram className="w-6 h-6" />
+            </Link>
           </div>
         </div>
       </div>

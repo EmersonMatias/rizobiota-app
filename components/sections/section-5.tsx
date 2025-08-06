@@ -5,13 +5,13 @@ import openWhatsapp from '@/helpers/open-whatsapp'
 export default function Section5() {
   return (
     <section className="py-10 px-5 relative flex items-end overflow-hidden md:py-20 lg:h-dvh">
-      <div className="flex flex-col items-center w-full justify-between md:flex-row md:items-end max-w-[1280px] mx-auto">
+      <div className="flex flex-col items-center w-full justify-between md:flex-row md:items-end lg:gap-20 max-w-[1280px] mx-auto">
         <div className="flex flex-col items-center md:w-1/2">
           <h2 className="font-gabarito font-bold text-2xl tracking-widest mb-5  md:text-3xl text-center lg:text-5xl lg:max-w-[600px] ">
             BAIXE NOSSO E-BOOK <span className="text-secondary">EXCLUSIVO</span>
           </h2>
 
-          <div className="w-[80%] h-full mb-5 overflow-hidden rounded-lg max-w-[400px] md:mb-0">
+          <div className="w-[100%] h-full mb-5 overflow-hidden rounded-lg max-w-[500px] md:mb-0">
             <img src="ebook.png" alt="" className="w-full h-full object-contain" />
           </div>
         </div>

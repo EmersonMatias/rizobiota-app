@@ -36,7 +36,7 @@ export default function Section2() {
 
             <button
               className="px-10 mx-auto w-full gap-4 flex items-center justify-center py-4 rounded-md bg-secondary hover:bg-[#976502] text-white font-bold mt-10 md:text-xl md:px-20 md:py-5 md:max-w-[600px] "
-              onClick={() => openWhatsapp('992031949')}
+              onClick={() => openWhatsapp('16999923882')}
             >
               Agende uma demonstração
               <FaWhatsapp className="w-6 h-6" />

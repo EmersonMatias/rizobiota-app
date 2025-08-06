@@ -13,7 +13,7 @@ export default function HeroSection() {
           <div className="flex flex-col md:flex-row gap-10 mt-10 w-full">
             <button
               className="justify-center gap-4 flex items-center py-4 rounded-md bg-white hover:bg-[#f3f3f3] text-primary font-bold md:text-xl w-full md:py-5 md:mt-0"
-              onClick={() => openWhatsapp('992031949')}
+              onClick={() => openWhatsapp('16999923882')}
             >
               Agende uma demonstração
               <FaWhatsapp className="w-6 h-6" />
